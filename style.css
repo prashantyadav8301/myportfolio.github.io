@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Roboto:wght@500&family=Smooch+Sans&family=Titillium+Web:wght@400;600&family=Ubuntu:ital,wght@1,500&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&family=Varela+Round&display=swap');
+/* 
+font-family: 'Irish Grover', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Smooch Sans', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Varela Round', sans-serif; 
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+
+}
+
+.sidebar {
+    position: absolute;
+    background-image: linear-gradient(180deg, red, yellow);
+    color: white;
+    font-family: 'Smooch Sans', sans-serif;
+    transition: transform 0.3s ease-in-out;
+    height: 100vh;
+
+}
+
+.sidebar nav {
+    padding: 1.6rem;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 2rem 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.main {
+    width: 100vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+.infocontainer {
+    display: flex;
+    border: 1px solid black;
+    height: 65vh;
+    width: 80vw;
+    margin: 10vh auto;
+    justify-content: space-around;
+}
+
+.devPic img {
+    height: 40vh;
+    margin-top: 5em;
+    box-shadow: 20px 20px 15px 10px;
+}
+
+.devInfo {
+    font-size: 15px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.devInfo .hello {
+    font-size: 2em;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+.devInfo .name {
+    font-size: 3em;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bolder;
+
+}
+
+.devInfo .about {
+    font-size: 1.5em;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+.btn1, .btn2 {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 1em;
+    border: none;
+    color: white;
+    background-color: rgb(22, 22, 212);
+}
+
+.contactform {
+    margin: 0 20em;
+}
+
+.contactform h1 {
+    padding: 2em 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.contactform form .mb-3 {
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form {
+    font-family: 'Varela Round', sans-serif;
+}
+
+#emailHelp {
+    font-size: 14px;
+    color: midnightblue;
+    margin: 10px;
+}
+
+form div .form-control {
+    font-size: 20px;
+    padding: 10px 20px;
+    width: 20rem;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+
+}
+
+.mb-2 input {
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.mb-2 label {
+    font-size: 1.2rem;
+}
+
+.btn-sm {
+    margin-top: 2rem;
+    padding: .4rem 1rem;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: red;
+    font-weight: bolder;
+    background-color: antiquewhite;
+}
+
+.btn-sm:hover {
+    color: black;
+    background-color: white;
+    border-style: groove;
+}
+
+.blogitem {
+    margin: 20px;
+}
+
+.blogcontainer {
+    margin: 50px 80px;
+    border: 1px solid black;
+}
+
+.blogcontainer h1 {
+    font-family: 'Varela Round', sans-serif;
+    margin: 20px;
+
+}
+
+.blogitem h2 {
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.blogitem p {
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.intro {
+    margin: 3rem;
+    border: 2px solid red;
+    border-radius: 10px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.intro h2 {
+    padding: 20px;
+}
+
+.intro p {
+    margin: 20px;
+}
+
+.skill-set {
+    margin: 20px;
+}
+
+.skill {
+    width: 10rem;
+    height: 5px;
+    background-color: red;
+    margin-left: 20px;
+}
+
+.skill-item {
+    display: flex;
+    align-items: center;
+}
+.project{
+    margin: 20px;
+}
+
+/* .project h3 {
+    margin: 20px;
+}
+
+.project h4 {
+    margin: 20px;
+} */
+
+.project h4 a{
+    color: hotpink;
+    text-decoration: none;
+}
+
+.sidebar-go {
+    position: absolute;
+    transform: translate(-443px, 0px);
+}
+
+.hamburger {
+    color: black;
+    position: absolute;
+    margin: 10px 10px;
+}
+
+.hamburger i {
+    cursor: pointer;
+}
+
+.url-box {
+    border: 2px solid red;
+    border-radius: 10px;
+    margin: 4em;
+    padding: 10px 20px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.url-box h1 {
+    margin: 20px 0;
+    font-size: 2em;
+}
+
+.url-box h3 {
+    margin: 10px 0;
+}
+
+.url-box h3 a {
+    text-decoration: none;
+    color: red;
+    margin-right: 10px;
+}
+
+@media screen and (max-width:396px) {
+    .devPic img {
+        height: 14em;
+        margin-top: 10px;
+        box-shadow: 20px 20px 10px;
+    }
+
+    .btn-sm {
+        margin: 20px auto;
+    }
+
+    .btn {
+        font-size: 15px;
+    }
+
+    .devInfo {
+        padding-top: 1px;
+        font-size: 15px;
+    }
+
+    .contactform {
+        padding-top: 3em;
+        margin: 0 20px;
+    }
+
+    .contactform h1 {
+        font-size: 25px;
+        font-family: 'Titillium Web', sans-serif;
+        font-style: italic;
+    }
+
+    .blogcontainer {
+        margin: 40px 40px;
+        border: 1px solid black;
+    }
+
+    .infocontainer {
+        flex-direction: column-reverse;
+        height: 100%;
+        align-items: center;
+    }
+
+    .devInfo .name {
+        font-size: 2rem;
+    }
+
+    .intro p {
+        margin: 10px;
+        font-size: 15px;
+    }
+
+    .intro h2 {
+        padding: 10px;
+        margin: 0 80px;
+    }
+
+    .intro .skill-set {
+        margin: 10px;
+    }
+
+    .project h3 {
+        margin: 10px;
+    }
+
+    .project h4 {
+        margin: 10px;
+    }
+
+    .url-box h1 {
+        font-size: 23px;
+    }
+}
