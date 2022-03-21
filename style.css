@@ -276,7 +276,7 @@ form div .form-control {
     margin-right: 10px;
 }
 
-@media screen and (max-width:399px) {
+@media screen and (max-width:415px) {
     .devPic img {
         height: 14em;
         margin-top: 10px;
