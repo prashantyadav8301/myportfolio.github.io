@@ -329,7 +329,7 @@ form div .form-control {
 
     .intro h2 {
         padding: 10px;
-        margin: 0 80px;
+        text-align: center;
     }
 
     .intro .skill-set {
