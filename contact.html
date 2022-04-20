@@ -38,20 +38,20 @@
                     <input type="hidden" name="_next" value="https://myportfolio.naivecoder.tech/success.html">
                     <div class="mb-3">
                         <label for="clientname" class="form-label">Name</label>
-                        <input type="text" class="form-control" name="name" id="clientname" aria-describedby="emailHelp">
+                        <input type="text" class="form-control" name="name" id="clientname" aria-describedby="emailHelp" required>
                     </div>
                     <div class="mb-3">
                         <label for="clientaddress" class="form-label">Address</label>
-                        <input type="text" class="form-control" name="address" id="clientaddress" aria-describedby="emailHelp">
+                        <input type="text" class="form-control" name="address" id="clientaddress" aria-describedby="emailHelp" required>
                     </div>
                     <div class="mb-3">
                         <label for="clientemail" class="form-label">Email Id</label>
-                        <input type="email" class="form-control" name="email" id="clientemail" aria-describedby="emailHelp">
+                        <input type="email" class="form-control" name="email" id="clientemail" aria-describedby="emailHelp" required>
                         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                     </div>
                     <div class="mb-3">
                         <label for="clientphone" class="form-label">Phone No.</label>
-                        <input type="text" class="form-control" name="phone" id="clientphone">
+                        <input type="text" class="form-control" name="phone" id="clientphone" required>
                     </div>
                     <div class="mb-3">
                         <label for="enquiry" class="form-label">Enquiry</label>
@@ -59,7 +59,7 @@
                     </div>
                     <div class="mb-2 form-check">
                         <input type="checkbox" class="form-check-input" name="checkbox" id="isclient">
-                        <label class="form-check-label" for="isclient">I want you, to do project with me.</label>
+                        <span class="form-check-label" for="isclient">I want you, to do project with me.</span>
                     </div>
                     <button type="submit" class="btn-sm btn-primary" id="button">Submit</button>
                 </form>
