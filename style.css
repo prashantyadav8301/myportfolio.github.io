@@ -61,11 +61,14 @@ font-family: 'Varela Round', sans-serif;
 
 .devPic img {
     width: 15vw;
+    border-radius: 100%;
+    border: 5px solid yellow;
+    box-shadow: 0px 0px 15px 0px;
 }
 
 .devPic{
     margin: auto 0;
-    box-shadow: 20px 20px 15px 10px;
+    
 }
 
 .devInfo {
@@ -295,7 +298,6 @@ form div .form-control {
 @media screen and (max-width:425px) {
     .devPic img {
         width: 10em;
-        box-shadow: 20px 20px 10px;
     }
 
     .btn-sm {
